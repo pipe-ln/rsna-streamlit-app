@@ -1,0 +1,56 @@
+{
+  "test_images": 1000,
+  "test_labels": 1000,
+  "test_distribution": {
+    "0": 775,
+    "1": 225
+  },
+  "detector_classes": {
+    "0": "lung_opacity"
+  },
+  "parallel_cpu_inference": [
+    {
+      "id": "5aacd561-03e0-41da-bdb0-5834b661a126",
+      "boxes_025": 0,
+      "boxes_070": 0,
+      "seconds": 0.936
+    },
+    {
+      "id": "356dbb8d-6a9e-416d-aa38-d2cb7aab0e14",
+      "boxes_025": 2,
+      "boxes_070": 0,
+      "seconds": 1.073
+    }
+  ],
+  "mlp": {
+    "columns": [
+      "Age",
+      "Sex_M",
+      "Position_PA"
+    ],
+    "sample_score": 0.6452587842941284
+  },
+  "png_jpg_upload_decode": "passed",
+  "synthetic_dicom": [
+    {
+      "photometric": "MONOCHROME2",
+      "boxes": 1,
+      "conversion_warning": true
+    },
+    {
+      "photometric": "MONOCHROME1",
+      "boxes": 1,
+      "conversion_warning": true
+    }
+  ],
+  "multiframe_rejected": true,
+  "model_page": {
+    "errors": 0,
+    "metric_count": 9
+  },
+  "test_page": {
+    "errors": 0,
+    "threshold": 0.45,
+    "test_button": "passed"
+  }
+}
