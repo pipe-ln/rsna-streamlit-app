@@ -7,7 +7,7 @@ Demostración académica de Felipe Lizama Núñez. Detecta regiones de opacidad 
 - Página **Modelo, datos y resultados**, con manifiestos y curvas originales.
 - Página **Probar el modelo**, con las 1.000 radiografías originales del test interno (225 positivas, 775 negativas), umbral ajustable y carga PNG/JPG/DCM/DICOM.
 - Pesos `best.pt`, MLP, escalador y columnas originales, sin volver a entrenar.
-- Cinco archivos ZIP de test menores de 25 MB; la app los abre automáticamente en almacenamiento temporal. No los descomprimas ni los elimines del repositorio.
+- Veinte archivos ZIP de test menores de 25 MB; la app los abre automáticamente en almacenamiento temporal. No los descomprimas ni los elimines del repositorio.
 - Ejecución en CPU y bloqueo de inferencias concurrentes para compartir el detector entre visitantes.
 
 ## Publicar sin usar Colab
